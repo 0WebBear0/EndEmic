@@ -1057,3 +1057,19 @@ Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 Watching for file changes with StatReloader
 Watching for file changes with StatReloader
+Not Found: /Home/
+"GET /Home/ HTTP/1.1" 404 3414
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3432
+"GET / HTTP/1.1" 200 9766
+"GET /static/css/theme.css HTTP/1.1" 200 888
+"GET /media/Image/%D0%9C%D0%BF3.jpg HTTP/1.1" 200 66330
+"GET /media/Image/17266.750x0.jpg HTTP/1.1" 200 115860
+"GET /media/Image/%D0%BC%D1%8F%D1%87.jpg HTTP/1.1" 200 156608
+"GET /media/Image/%D1%88%D0%B8%D1%88%D0%B5%D1%87%D0%BD%D0%BE%D0%B5_%D0%B2%D0%B0%D1%80%D0%B5%D0%BD%D1%8C%D0%B5_jeOM1Rr.jpg HTTP/1.1" 200 487336
+"GET /media/Image/%D0%BC%D0%B5%D0%B4%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D0%B0%D1%81%D1%82%D0%B8%D0%BB%D0%BA%D0%B8.jpg HTTP/1.1" 200 118670
+"GET /static/img/icon.png HTTP/1.1" 200 2210
+"GET /category/8/ HTTP/1.1" 200 3734
+"GET /product/8/ HTTP/1.1" 200 3634
+"GET /media/Image/%D0%BC%D0%B5%D0%B4%D0%BE%D0%B2%D1%8B%D0%B5_%D0%BF%D0%B0%D1%81%D1%82%D0%B8%D0%BB%D0%BA%D0%B8.jpg HTTP/1.1" 200 118670
+Watching for file changes with StatReloader
