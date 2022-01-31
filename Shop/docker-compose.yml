@@ -5,24 +5,10 @@ services:
     build: ./
     container_name: endemic_web
     restart: always
-    command: bash entrypoint.sh
+    command: python manage.py runserver 0.0.0.0:8000
     volumes:
       - .:/usr/src/app
       - ./static:/usr/src/app/static
       - ./media:/usr/src/app/media
-    expose:
-      - "8080"
-
-  nginx:
-    build: ./nginx
-    container_name: endemic_nginx
-    restart: on-failure
     ports:
-      - 80:80
-    expose:
-      - "80"
-    volumes:
-      - ./static:/static
-      - ./media:/media
-    depends_on:
-      - web
+      - "8000:8000"
